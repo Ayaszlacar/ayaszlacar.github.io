@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login</title>
-        <link rel="stylesheet" href="estilos/style.css">
-    </head>
-    <body>
-        <main>
-            <section id="login">
-                <div id="imagem">
-                    FOTO
-                </div>
-                <div id="formulario">
-                    <h1>Login</h1>
-                    <p>Faça login para acessar sua conta e configurar seu ambiente</p>
-                    <form action="login.php" methods="post">
-                        
-                    </form>
-                </div>
-            </section>
-        </main>
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="estilos/style.css"
+  <link rel="stylesheet" href="estilos/media-query.css"
+</head>
+
+<body>
+  <section class="area-login">
+    <div class="login">
+      <form method="post">
+        <input type="text" name="nome" placeholder="Insira o seu e-mail" autofocus>
+        <input type="text" name="senha" placeholder="Insira a senha">
+        <input type="submit" value="entrar">
+      </form>
+    <p>Ainda nao tem uma conta?<a href="#">Criar conta</a></p>
+  </section>
+</body>
 </html>
